@@ -1,0 +1,131 @@
+<html lang="es">
+	<head>
+	    <meta charset="utf-8">
+	    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link type="text/css" rel="stylesheet" href="../../css/materialize.css"  media="screen,projection"/>
+      <link type="text/css" rel="stylesheet" href="../../css/materialize.min.css"  media="screen,projection"/>
+	</head>
+	 
+	<body>     
+		<div class="row">
+
+      <div class="col s7">
+      	<div class="card-stacked">
+                <div class="card-content">
+                  <div class="container">
+                  	<h4 class="header left-align grey-text">Mis datos</h4>
+                            
+                            <div class="row">
+								<div class="col s3">
+                            		<span class="grey-text">*Nombre(s)</span>
+                            	</div>
+                            	<div class="col s9">
+                            		<input type="text" name="Nombres">
+                           		</div>
+                            </div>
+
+                            <div class="row">
+								<div class="col s4">
+                            		<span class="grey-text">*Primer Apellido</span>
+                            	</div>
+                            	<div class="col s8">
+                            		<input type="text" name="1erAplellido">
+                           		</div>
+                            </div>
+							
+							<div class="row">
+								<div class="col s4">
+                            		<span class="grey-text">*Segundo Apellido</span>
+                            	</div>
+                            	<div class="col s8">
+                            		<input type="text" name="2doAplellido">
+                           		</div>
+                            </div>
+
+							<blockquote class="grey-text">
+     						 Su número de documento es indispensable para verificar su identidad.
+    						</blockquote>
+
+							<div class="row">
+								<div class="col s6">
+                    <span class="grey-text">*Tipo de documento:</span>
+                </div>
+                <div class="col s6">
+                  <select class="browser-default">
+                    <option value="" disabled selected>Seleccionar Documento</option>
+                    <option value="1">Cédula de ciudadanía</option>
+                    <option value="2">Cédula de extranjería</option>
+                    <option value="3">Pasaporte</option>
+                  </select>
+                </div>
+              </div>
+
+                            <div class="row">
+								<div class="col s4">
+                            		<span class="grey-text">*Numero de documento</span>
+                            	</div>
+                            	<div class="col s8">
+                            		<input type="text" name="numDocumento">
+                           		</div>
+                            </div>
+                            <blockquote class="grey-text">
+     						 Todos los correos de notificación de Su Sistema, se enviarán a esta dirección
+    						</blockquote>
+    						 <div class="row">
+								<div class="col s4">
+                            		<span class="grey-text">*Correo electrónico:</span>
+                            	</div>
+                            	<div class="col s8">
+                            		<input type="text" name="correoElectronico">
+                           		</div>
+                            </div>
+                    </div>
+                </div>
+              </div>
+      </div>
+
+      <div class="col s5">
+        <div class="card-stacked">
+                <div class="card-content">
+                  <div class="container">
+                        <h4 class="header left-align grey-text">Mi usuario</h4>
+                             
+                            
+                            <div class="row">
+                            <div class="col s6">
+                                <span class="grey-text">Usuario: </span>
+                                <input type="text" name="userName"> 
+                              </div>
+                               <div class="col s6">
+                                  <select class="browser-default">
+                                    <option value="" disabled selected>Seleccionar ROL</option>
+                                    <option value="1">Estudiante</option>
+                                    <option value="2">Administrador</option>
+                                  </select>
+                                </div>
+                            </div>
+
+
+
+                            <div class="row">
+								            <div class="col s6">
+                            		<span class="grey-text">Contraseña </span>
+                            		<input type="password" name="password">
+                            	</div>
+                            	<div class="col s6">
+                            		<span class="grey-text">*Confirma tu contraseña </span>
+                            		<input type="password" name="password">
+                           		</div>
+                            </div>
+
+                        <div class="card-action right-align">
+                            <a class="waves-effect waves-light btn teal darken-1"><i class="material-icons left">assignment_ind</i>Registrarse</a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+      </div>
+    </div>
+	</body>
+
+</html>
